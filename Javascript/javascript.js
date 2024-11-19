@@ -121,3 +121,19 @@ reset.onclick = function () {
   pick.textContent = 0;
 };
 */
+
+const agePutter = document.getElementById("Ageputter");
+const click = document.getElementById("clicker");
+const lisTer = document.getElementById("headQual");
+let age;
+
+click.onclick = () => {
+  age = agePutter.value;
+  age = Number(age);
+
+  if (age >= 17) {
+    lisTer.textContent = "You are old";
+  } else {
+    lisTer.textContent = "too youngs";
+  }
+};
