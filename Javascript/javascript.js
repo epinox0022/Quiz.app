@@ -153,7 +153,7 @@ checks.onchange = () => {
   }
 
   ifButtonIs.onclick = () => {
-    ifHeadIs.textContent = "tea";
+    ifHeadIs.textContent = "Thank you for subscribing!";
   };
 };
 
@@ -164,7 +164,7 @@ checkT.onchange = () => {
   }
 
   ifButtonIs.onclick = () => {
-    ifHeadIs.textContent = "tea";
+    ifHeadIs.textContent = "We appriciate your time!";
   };
 };
 
@@ -175,6 +175,6 @@ checkTh.onchange = () => {
   }
 
   ifButtonIs.onclick = () => {
-    ifHeadIs.textContent = "tea";
+    ifHeadIs.textContent = "Nice! you can watch this later!";
   };
 };
