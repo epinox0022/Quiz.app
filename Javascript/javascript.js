@@ -143,13 +143,18 @@ click.onclick = () => {
 const checks = document.getElementById("checkbox1");
 const checkT = document.getElementById("checkbox2");
 const checkTh = document.getElementById("checkbox3");
-const thebutton = document.getElementById("buton");
+const ifButtonIs = document.getElementById("buton");
+const ifHeadIs = document.getElementById("ifheadis");
 
 checks.onchange = () => {
   if (checks.checked) {
     checkT.checked = false;
     checkTh.checked = false;
   }
+
+  ifButtonIs.onclick = () => {
+    ifHeadIs.textContent = "tea";
+  };
 };
 
 checkT.onchange = () => {
