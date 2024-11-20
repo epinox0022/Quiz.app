@@ -34,7 +34,7 @@
 // let circumtances;
 
 /*
-// Self Creation No.1: Value of Circle project
+// Project Creation No.1: Value of Circle project
 
 document.getElementById("butOfInput").onclick = function () {
   const radius = document.getElementById("inputted").value;
@@ -48,7 +48,7 @@ document.getElementById("butOfInput").onclick = function () {
 
 /*
 
-// Creation Copied No.1: Increase and Decrease project
+// Project Creation No.2: Increase and Decrease project
 
 
 const text = document.getElementById("numbers");
@@ -90,7 +90,7 @@ z= Math.min() => to use the lowest or minm no.
 */
 
 /*
-self Creation No.2: Random number project
+Project Creation No.3: Random number project
 
 const pick = document.getElementById("headNumber");
 const gett = document.getElementById("headNumb");
@@ -122,6 +122,7 @@ reset.onclick = function () {
 };
 */
 
+/* Project Creation No.4
 const agePutter = document.getElementById("Ageputter");
 const click = document.getElementById("clicker");
 const lisTer = document.getElementById("headQual");
@@ -137,3 +138,4 @@ click.onclick = () => {
     lisTer.textContent = "too youngs";
   }
 };
+*/
