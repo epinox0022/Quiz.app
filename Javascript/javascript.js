@@ -162,6 +162,10 @@ checkT.onchange = () => {
     checks.checked = false;
     checkTh.checked = false;
   }
+
+  ifButtonIs.onclick = () => {
+    ifHeadIs.textContent = "tea";
+  };
 };
 
 checkTh.onchange = () => {
@@ -169,4 +173,8 @@ checkTh.onchange = () => {
     checks.checked = false;
     checkT.checked = false;
   }
+
+  ifButtonIs.onclick = () => {
+    ifHeadIs.textContent = "tea";
+  };
 };
