@@ -139,3 +139,29 @@ click.onclick = () => {
   }
 };
 */
+
+const checks = document.getElementById("checkbox1");
+const checkT = document.getElementById("checkbox2");
+const checkTh = document.getElementById("checkbox3");
+const thebutton = document.getElementById("buton");
+
+checks.onchange = () => {
+  if (checks.checked) {
+    checkT.checked = false;
+    checkTh.checked = false;
+  }
+};
+
+checkT.onchange = () => {
+  if (checkT.checked) {
+    checks.checked = false;
+    checkTh.checked = false;
+  }
+};
+
+checkTh.onchange = () => {
+  if (checkTh.checked) {
+    checks.checked = false;
+    checkT.checked = false;
+  }
+};
