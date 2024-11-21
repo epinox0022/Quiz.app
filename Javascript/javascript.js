@@ -187,13 +187,19 @@ const ifHeadIs = document.getElementById("ifheadis");
 ifButtonIs.onclick = () => {
   if (checks.checked && checkT.checked && checkTh.checked) {
     ifHeadIs.textContent = "Thank you for your appriciation!";
-  } else if (checks.checked && checkT.checked) {
+  } else if (checkT.checked && checks.checked) {
     ifHeadIs.textContent =
       "Thank you for clicking the Subcribes and Like button!";
-  } else if (checkT.checked && checkTh.checked) {
-    ifHeadIs.textContent = "Thank you for clicking the Save and Like button";
-  } else if (checks.checked && checkTh) {
+  } else if (checks.checked) {
+    ifHeadIs.textContent = "Thank you for Subscribing our video!";
+  } else if (checkTh && checks.checked) {
     ifHeadIs.textContent =
       "Thank you for clicking the Subcribes and Save button!";
+  } else if (checkT.checked && checkTh.checked) {
+    ifHeadIs.textContent = "Thank you for clicking the Save and Like button";
+  } else if (checkT.checked) {
+    ifHeadIs.textContent = "Thank you for Liking our video!";
+  } else if (checkTh.checked) {
+    ifHeadIs.textContent = "Nice! you can watch this later! ";
   }
 };
