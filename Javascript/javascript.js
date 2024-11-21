@@ -143,6 +143,12 @@ click.onclick = () => {
 /* 
 Project Creation No.5
 
+const checks = document.getElementById("checkbox1");
+const checkT = document.getElementById("checkbox2");
+const checkTh = document.getElementById("checkbox3");
+const ifButtonIs = document.getElementById("buton");
+const ifHeadIs = document.getElementById("ifheadis");
+
 
 checks.onchange = () => {
   if (checks.checked) {
@@ -176,13 +182,6 @@ checkTh.onchange = () => {
     ifHeadIs.textContent = "Nice! you can watch this later!";
   };
 };
-*/
-
-const checks = document.getElementById("checkbox1");
-const checkT = document.getElementById("checkbox2");
-const checkTh = document.getElementById("checkbox3");
-const ifButtonIs = document.getElementById("buton");
-const ifHeadIs = document.getElementById("ifheadis");
 
 ifButtonIs.onclick = () => {
   if (checks.checked && checkT.checked && checkTh.checked) {
@@ -190,16 +189,18 @@ ifButtonIs.onclick = () => {
   } else if (checkT.checked && checks.checked) {
     ifHeadIs.textContent =
       "Thank you for clicking the Subcribes and Like button!";
-  } else if (checks.checked) {
-    ifHeadIs.textContent = "Thank you for Subscribing our video!";
-  } else if (checkTh && checks.checked) {
-    ifHeadIs.textContent =
-      "Thank you for clicking the Subcribes and Save button!";
   } else if (checkT.checked && checkTh.checked) {
     ifHeadIs.textContent = "Thank you for clicking the Save and Like button";
   } else if (checkT.checked) {
     ifHeadIs.textContent = "Thank you for Liking our video!";
   } else if (checkTh.checked) {
     ifHeadIs.textContent = "Nice! you can watch this later! ";
+  } else if (checkTh  checks.checked) {
+    ifHeadIs.textContent =
+      "Thank you for clicking the Subcribes and Save button!";
+  } else {
+    ifHeadIs.textContent = "mice";
   }
 };
+
+*/
