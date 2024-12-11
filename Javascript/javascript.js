@@ -204,3 +204,38 @@ ifButtonIs.onclick = () => {
 };
 
 */
+
+/*
+
+===TERNARY OPERATOR===
+
+const day = "tuesday";
+
+let harans =
+  day === "monday"
+    ? "This is the day to pursue her"
+    : "This wasn't the day to pursue her";
+
+console.log(harans);
+
+===SWITCH OPERATOR===
+
+const iputed = document.getElementById("inputter");
+const heads = document.getElementById("ifheadis");
+const butts = document.getElementById("buton");
+
+let food;
+
+butts.onclick = () => {
+  food = iputed.value;
+
+  if (food === "apple") {
+    heads.textContent = `This is healthy for your body`;
+  } else if (food === "chips") {
+    heads.textContent = `This isn't health at all`;
+  } else if (food === "fries") {
+    heads.textContent = `none`;
+  }
+};
+
+*/
