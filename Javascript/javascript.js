@@ -219,7 +219,6 @@ let harans =
 console.log(harans);
 
 ===SWITCH OPERATOR===
-
 const iputed = document.getElementById("inputter");
 const heads = document.getElementById("ifheadis");
 const butts = document.getElementById("buton");
@@ -229,13 +228,21 @@ let food;
 butts.onclick = () => {
   food = iputed.value;
 
-  if (food === "apple") {
-    heads.textContent = `This is healthy for your body`;
-  } else if (food === "chips") {
-    heads.textContent = `This isn't health at all`;
-  } else if (food === "fries") {
-    heads.textContent = `none`;
+  switch (true) {
+    case food === "apple":
+      heads.textContent = `This is healthy for your body`;
+      break;
+    case food === "chips":
+      heads.textContent = `This is not healthy for body`;
+      break;
+    case food === "water":
+      heads.textContent = `Good this will increase your energy`;
+      break;
+    default:
+      heads.textContent = `It wasn't a value`;
   }
 };
+
+
 
 */
