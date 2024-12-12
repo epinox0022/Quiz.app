@@ -242,7 +242,20 @@ butts.onclick = () => {
       heads.textContent = `It wasn't a value`;
   }
 };
-
-
-
 */
+
+// ===STRING.SLICING===
+// =Creating a substring from a portion of another string (e.g: string.slicing(start, end));=
+let firstName = "Jhonny mark";
+
+// const names = firstName.slice(0, firstName.indexOf(" "));
+// const named = firstName.slice(firstName.indexOf(" ") + 1);
+// console.log(names);
+// console.log(named);
+
+let email = "fjhonnymark@gmail.com";
+
+const username = email.slice(0, email.indexOf("@"));
+const extension = email.slice(email.indexOf("@") + 1);
+console.log(username);
+console.log(extension);
