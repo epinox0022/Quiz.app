@@ -1,6 +1,6 @@
 "Use strict";
 
-// window.alert("I function you");
+// ===window.alert("I function you");===
 
 // document.getElementById("hello").textContent = "helo";
 
@@ -33,8 +33,7 @@
 // let radius;
 // let circumtances;
 
-/*
-// Project Creation No.1: Value of Circle project
+/* ===Project Creation No.1: Value of Circle project===
 
 document.getElementById("butOfInput").onclick = function () {
   const radius = document.getElementById("inputted").value;
@@ -46,9 +45,7 @@ document.getElementById("butOfInput").onclick = function () {
 };
 */
 
-/*
-
-// Project Creation No.2: Increase and Decrease project
+/* ===Project Creation No.2: Increase and Decrease project===
 
 
 const text = document.getElementById("numbers");
@@ -72,8 +69,7 @@ decrease.onclick = function () {
 };
 */
 
-/*
-Math = built in object that provides a collection of properties and methods
+/* ===Math = built in object that provides a collection of properties and methods===
 
 z= Math.random() => to provide random no. below 1 and decimal
 z= Math.round() => convert decimal into whole no.
@@ -89,8 +85,7 @@ z= Math.max() => to use the highest or maxm no.
 z= Math.min() => to use the lowest or minm no.
 */
 
-/*
-Project Creation No.3: Random number project
+/*+++Project Creation No.3: Random number project+++
 
 const pick = document.getElementById("headNumber");
 const gett = document.getElementById("headNumb");
@@ -122,7 +117,7 @@ reset.onclick = function () {
 };
 */
 
-/* Project Creation No.4
+/* +++Project Creation No.4+++
 const agePutter = document.getElementById("Ageputter");
 const click = document.getElementById("clicker");
 const lisTer = document.getElementById("headQual");
@@ -140,8 +135,7 @@ click.onclick = () => {
 };
 */
 
-/* 
-Project Creation No.5
+/* +++Project Creation No.5+++
 
 const checks = document.getElementById("checkbox1");
 const checkT = document.getElementById("checkbox2");
@@ -205,9 +199,7 @@ ifButtonIs.onclick = () => {
 
 */
 
-/*
-
-===TERNARY OPERATOR===
+/*===TERNARY OPERATOR===
 
 const day = "tuesday";
 
@@ -244,14 +236,14 @@ butts.onclick = () => {
 };
 */
 
-// ===STRING.SLICING===
-// =Creating a substring from a portion of another string (e.g: string.slicing(start, end));=
+/*===STRING.SLICING===
+ =Creating a substring from a portion of another string (e.g: string.slicing(start, end));=
 let firstName = "Jhonny mark";
 
-// const names = firstName.slice(0, firstName.indexOf(" "));
-// const named = firstName.slice(firstName.indexOf(" ") + 1);
-// console.log(names);
-// console.log(named);
+const names = firstName.slice(0, firstName.indexOf(" "));
+const named = firstName.slice(firstName.indexOf(" ") + 1);
+console.log(names);
+console.log(named);
 
 let email = "fjhonnymark@gmail.com";
 
@@ -259,3 +251,38 @@ const username = email.slice(0, email.indexOf("@"));
 const extension = email.slice(email.indexOf("@") + 1);
 console.log(username);
 console.log(extension);
+*/
+
+/*===While loop===
+//Repeat some code WHILE some condition is true and repeat infinitely
+
+let loggedIn = false;
+let username;
+let password;
+
+do { <=== This can be a while(!logged In) and can be do
+  username = window.prompt(`Enter your Username`);
+  password = window.prompt(`Enter your Password`);
+
+  if (username === "fjhonnymark" && password === "Equinox0022") {
+    loggedIn = true;
+    alert(`You are logged in.`);
+  } else {
+    alert(
+      `Invalid credentials, please put your correct password and username.`
+    );
+  }
+} while (!loggedIn);
+*/
+
+// ===for loop===
+
+//===repeat the code in a limited amount of times
+
+for (let i = 0; i <= 2; i++) {
+  if ((i = 1)) {
+    continue;
+  } else {
+    console.log(`not valid`);
+  }
+}
